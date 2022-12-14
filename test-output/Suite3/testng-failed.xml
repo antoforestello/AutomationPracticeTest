@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite3]" guice-stage="DEVELOPMENT">
+  <test name="ValidAccount(failed)">
+    <classes>
+      <class name="tests.CreateAccountTest">
+        <methods>
+          <include name="stopRecording"/>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="invalidAccount" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="startRecording"/>
+        </methods>
+      </class> <!-- tests.CreateAccountTest -->
+    </classes>
+  </test> <!-- ValidAccount(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="PruebasChrome(failed)">
+    <parameter name="navegador" value="Chrome"/>
+    <classes>
+      <class name="tests.SignInTest">
+        <methods>
+          <include name="stopRecording"/>
+          <include name="signInInvalidPassword" invocation-numbers="0"/>
+          <include name="signInRequiredEmail" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="startRecording"/>
+          <include name="signInRequiredPassword" invocation-numbers="0"/>
+          <include name="tomarEvidencia"/>
+          <include name="validSignIn"/>
+        </methods>
+      </class> <!-- tests.SignInTest -->
+    </classes>
+  </test> <!-- PruebasChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
